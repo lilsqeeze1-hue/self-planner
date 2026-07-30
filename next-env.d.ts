@@ -1,6 +1,4 @@
-/// <reference types="next" />
-/// <reference types="next/image-types/global" />
-import "./.next/types/routes.d.ts";
-
-// NOTE: This file should not be edited
-// see https://nextjs.org/docs/app/api-reference/config/typescript for more information.
+BOT_TOKEN=
+ALLOWED_TELEGRAM_ID_1=339965590
+ALLOWED_TELEGRAM_ID_2=
+DATABASE_URL=
