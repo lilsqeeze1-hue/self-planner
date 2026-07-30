@@ -40,6 +40,7 @@
     "scripts",
     ".vinext",
     "layout.tsx",
-    "organizer.tsx"
+    "organizer.tsx",
+    "telegram-auth.ts"
   ]
 }
