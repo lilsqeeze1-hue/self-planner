@@ -38,6 +38,8 @@
     "db",
     "self-planner",
     "scripts",
-    ".vinext"
+    ".vinext",
+    "layout.tsx",
+    "organizer.tsx"
   ]
 }
