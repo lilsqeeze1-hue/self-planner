@@ -36,6 +36,7 @@
     "examples",
     "build",
     "db",
+    "self-planner",
     "scripts",
     ".vinext"
   ]
