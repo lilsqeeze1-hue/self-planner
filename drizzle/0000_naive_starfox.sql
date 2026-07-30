@@ -1,0 +1,21 @@
+CREATE TABLE `items` (
+	`id` text PRIMARY KEY NOT NULL,
+	`space_id` text DEFAULT 'shared' NOT NULL,
+	`kind` text NOT NULL,
+	`title` text NOT NULL,
+	`description` text DEFAULT '' NOT NULL,
+	`category` text DEFAULT 'Другое' NOT NULL,
+	`status` text DEFAULT 'active' NOT NULL,
+	`amount` integer,
+	`currency` text DEFAULT 'RUB' NOT NULL,
+	`paid_by` text,
+	`assigned_to` text,
+	`due_date` text,
+	`start_date` text,
+	`end_date` text,
+	`link` text,
+	`metadata` text DEFAULT '{}' NOT NULL,
+	`created_by` text DEFAULT 'me' NOT NULL,
+	`created_at` text DEFAULT CURRENT_TIMESTAMP NOT NULL,
+	`updated_at` text DEFAULT CURRENT_TIMESTAMP NOT NULL
+);
